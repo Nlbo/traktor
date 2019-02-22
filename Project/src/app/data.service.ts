@@ -5,8 +5,9 @@ import {HttpClient} from '@angular/common/http';
   providedIn: 'root'
 })
 export class DataService {
-url = 'http://mvm-specstroy.ru:80';
+// url = 'http://mvm-specstroy.ru:80';
 // url = window.location.origin;
+url = 'http://localhost:1337';
   selectedCar;
   selectedWork;
   prices;
